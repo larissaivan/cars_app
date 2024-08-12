@@ -3,7 +3,7 @@ import pandas as pd
 import plotly.express as px
 
 
-file_path = 'C:/Users/laris/project5/project5/cars_app'
+file_path = 'cars_app'
 df = pd.read_csv(file_path)
 
 st.header('Car market prices dashboard')
